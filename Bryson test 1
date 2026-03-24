@@ -168,6 +168,19 @@
 </main>
 <div class="overlay" id="overlay">
   <div class="modal">
+<div id="raffle-box" style="margin-top:15px;">
+  <p style="font-size:13px;">
+    🎁 You already earned an entry — enter email to confirm
+  </p>
+
+  <input id="raffle-email" type="email" placeholder="Enter email"
+    style="padding:8px; width:65%; border:1px solid #ccc; border-radius:6px;" />
+
+  <button onclick="submitRaffleFake()" 
+    style="padding:8px 12px; margin-left:5px;">
+    Enter
+  </button>
+</div>
     <div class="m-icon" id="m-icon">🏆</div>
     <h2 id="m-title">Birdie!</h2>
     <p id="m-msg"></p>
